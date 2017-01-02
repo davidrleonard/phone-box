@@ -1,0 +1,21 @@
+{
+  "name": "phone-box",
+  "version": "1.0.0",
+  "description": "Forward phone calls from our apartment phone box.",
+  "main": "app.js",
+  "dependencies": {
+    "authy": "^1.2.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "twilio": "^2.9.1"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David R. Leonard <davidrobertleonard@gmail.com>",
+  "license": "MIT"
+}
